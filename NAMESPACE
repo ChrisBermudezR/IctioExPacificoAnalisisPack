@@ -3,5 +3,8 @@
 export(boxplot_CTDO)
 export(boxplot_Marea)
 export(boxplot_profundidad)
+export(boxplot_transecto)
+export(ciclo_mareal)
+export(graf_lineas)
 export(histograma_Transecto)
 export(perfil_en_profundidad)

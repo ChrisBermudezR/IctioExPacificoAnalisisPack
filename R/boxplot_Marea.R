@@ -9,7 +9,7 @@
 #'
 #' @examples
 boxplot_Marea<-function(datos,variable, y_etiqueta){
-  ggplot(datos, aes(x=Marea, y=variable, color=Marea)) +
+  ggplot(data=datos, aes(x=Marea, y=variable, color=Marea)) +
     geom_boxplot()+
     stat_summary(fun=mean, geom="point", shape=20, size=5, color="blue", fill="blue") +
     labs( y = y_etiqueta, x = "Marea")+

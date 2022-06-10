@@ -10,7 +10,7 @@
 #'
 #' @examples
 boxplot_profundidad<-function(datos, estacion, variable, labely){
-  ggplot(datos) +
+  ggplot(data=datos) +
     geom_boxplot(aes(x=estacion, y=variable))+
     theme_bw()+
     stat_summary(fun=mean, aes(y = variable, x=estacion), geom="point", shape=20, size=2, color="red", position = position_dodge(width =0.8)) +
