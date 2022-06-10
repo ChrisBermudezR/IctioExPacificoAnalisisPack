@@ -5,17 +5,17 @@
 \title{Title}
 \usage{
 perfil_en_profundidad(
-  Estacion,
-  Titulo,
-  VarProfundidad,
+  Datos,
+  CodigoEstacion,
+  Marea,
   variable,
+  VarProfundidad,
   labelx,
-  labely,
-  profundidadMax
+  labely
 )
 }
 \arguments{
-\item{profundidadMax}{}
+\item{labely}{}
 }
 \description{
 Title
